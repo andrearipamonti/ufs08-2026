@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1em;
+}
+
+
+.hero {
+    height: 50vh;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.site-footer {
+    padding: 1em;
+    background-color: #ababab;
+}
+
+.site-footer .site-footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-footer .site-footer-bottom {
+    border-top: 1px solid #2f2f2f;
+}
+
+.list-reset {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
